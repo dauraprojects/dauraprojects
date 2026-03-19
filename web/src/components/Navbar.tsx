@@ -26,9 +26,9 @@ const Navbar = () => {
         {/* Logo */}
         <a
           href="#"
-          className="font-serif text-2xl md:text-3xl font-light tracking-tight text-[#700B1A]"
+          className="font-serif text-xl md:text-2xl font-light tracking-tight text-foreground"
         >
-          D'Aura Project .
+          D'Aura Project
         </a>
 
         {/* Desktop Links */}
@@ -61,7 +61,10 @@ const Navbar = () => {
           >
             Masuk
           </a>
-          <Button variant="hero" size="sm">
+          <Button
+            variant="hero"
+            className="text-[11px] uppercase tracking-[0.2em] font-semibold"
+          >
             Mulai Buat
           </Button>
         </div>
