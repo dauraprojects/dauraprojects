@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Logo */}
         <a
           href="#"
-          className="font-serif text-xl md:text-2xl font-light tracking-tight text-foreground"
+          className="font-serif text-md md:text-xl font-light tracking-tight text-foreground"
         >
           D'Aura Project
         </a>
